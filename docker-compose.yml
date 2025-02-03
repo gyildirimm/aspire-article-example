@@ -1,0 +1,80 @@
+version: '3.9'
+
+networks:
+  aspire-network:
+    driver: bridge
+
+services:
+  aspire-dashboard:
+    image: mcr.microsoft.com/dotnet/aspire-dashboard:9.0
+    container_name: aspire-dashboard
+    environment:
+        DOTNET_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS: "true"
+    ports:
+      - "18888:18888"
+      - "4317:18889"
+    networks:
+      - aspire-network
+    depends_on:
+      - postgres
+      - redis
+      - rabbitmq
+
+  examplewebapi:
+    image: ${DOCKER_REGISTRY-}examplewebapi
+    build:
+      context: .
+      dockerfile: ExampleWebAPI/Dockerfile
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES=true
+      - OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES=true
+      - OTEL_DOTNET_EXPERIMENTAL_OTLP_RETRY_ENABLED=true
+      - ASPNETCORE_FORWARDEDHEADERS_ENABLED=true
+      - HTTP_PORTS=5000
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://aspire-dashboard:18889
+      - OTEL_SERVICE_NAME=example-webapi
+      - ConnectionStrings__DefaultConnection=Host=postgres;Database=ProductDb;Username=postgres;Password=postgrespassword
+    ports:
+      - "5000:5000"
+    networks:
+      - aspire-network
+    depends_on:
+      - aspire-dashboard
+
+  postgres:
+    image: postgres:latest
+    container_name: postgres
+    environment:
+       OTEL_EXPORTER_OTLP_ENDPOINT: 'http://aspire-dashboard:18889'
+       OTEL_SERVICE_NAME: postgres
+       POSTGRES_USER: postgres
+       POSTGRES_PASSWORD: postgrespassword
+       POSTGRES_DB: ProductDb
+    ports:
+      - "5432:5432"
+    networks:
+      - aspire-network
+
+  redis:
+    image: redis:latest
+    container_name: redis
+    environment:
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://aspire-dashboard:18889
+      - OTEL_SERVICE_NAME=redis
+    ports:
+      - "6379:6379"
+    networks:
+      - aspire-network
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq
+    environment:
+      - OTEL_EXPORTER_OTLP_ENDPOINT=http://aspire-dashboard:18889
+      - OTEL_SERVICE_NAME=rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - aspire-network

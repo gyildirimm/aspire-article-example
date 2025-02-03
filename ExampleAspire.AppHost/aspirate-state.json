@@ -1,0 +1,32 @@
+{
+  "projectPath": ".",
+  "outputPath": "aspirate-output",
+  "containerImageTags": [
+    "latest"
+  ],
+  "containerBuilder": "docker",
+  "outputFormat": "compose",
+  "privateRegistryEmail": "aspir8@aka.ms",
+  "includeDashboard": true,
+  "secrets": {
+    "salt": "KYOBPFHgTpx5o/jp",
+    "hash": "EErmP3tVgDY0UtwFF7ZgSUGqj5bQ1VmSvSSkOItcLgk=",
+    "secrets": {
+      "postgresuser": {
+        "value": "KYOBPFHgTpx5o/jpaoR1P/RHk2Ec1CKNfaT3OAOVSRlohYgX"
+      },
+      "postgrespassword": {
+        "value": "KYOBPFHgTpx5o/jp0499son2SdJ/H0FhhrzaIAOVSRlohYgXkmJPWKDdfPo="
+      },
+      "postgres-server": {
+        "POSTGRES_PASSWORD": "KYOBPFHgTpx5o/jp0499son2SdJ/H0FhhrzaIAOVSRlohYgXkmJPWKDdfPo="
+      },
+      "pDb": {},
+      "examplewebapi": {
+        "ConnectionStrings__pDb": "KYOBPFHgTpx5o/jp6iimUtogJjTxyV/vi7mp8juVSRkyh4IXlmROTqSfffv45hYf\u002B5k4qc6KLbJB1C/KGUU1JemXr1LFPBeg1GoEPxGJnGOlblBO8RbQmCAaNgJD9oXWFz0D27/LtE9vVUjjcFWqFWBMlQSm0\u002Brftw==",
+        "ConnectionStrings__DefaultConnection": "KYOBPFHgTpx5o/jp9sfHxZYhRmnFekmsqA15HzuVSRkym4IHg29URKTGNdrr5BIPoboy5urFd\u002BIHhWDbCBsSOO2IpA7YNlmk3GsVK1i8jiuGeExP4kTSk24ePgNS4ofSFz4Vx77Y4Hlq"
+      }
+    }
+  },
+  "processAllComponents": true
+}

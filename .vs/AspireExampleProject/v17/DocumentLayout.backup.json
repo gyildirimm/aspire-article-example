@@ -1,0 +1,252 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\Code_Projects\\AspireExampleProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9885F9F3-1F0A-48D6-932F-92C28C8C3E6B}|ExampleWebAPI\\ExampleWebAPI.csproj|a:\\code_projects\\aspireexampleproject\\examplewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9885F9F3-1F0A-48D6-932F-92C28C8C3E6B}|ExampleWebAPI\\ExampleWebAPI.csproj|solutionrelative:examplewebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A8BB7B1-534F-43D4-8668-C2356406F89A}|ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj|a:\\code_projects\\aspireexampleproject\\exampleaspire.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A8BB7B1-534F-43D4-8668-C2356406F89A}|ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj|solutionrelative:exampleaspire.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A8BB7B1-534F-43D4-8668-C2356406F89A}|ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj|a:\\code_projects\\aspireexampleproject\\exampleaspire.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A8BB7B1-534F-43D4-8668-C2356406F89A}|ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj|solutionrelative:exampleaspire.apphost\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A761AD94-DF9D-4724-B0D4-6EEAADB74968}|ExampleAspire.ServiceDefaults\\ExampleAspire.ServiceDefaults.csproj|a:\\code_projects\\aspireexampleproject\\exampleaspire.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A761AD94-DF9D-4724-B0D4-6EEAADB74968}|ExampleAspire.ServiceDefaults\\ExampleAspire.ServiceDefaults.csproj|solutionrelative:exampleaspire.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|a:\\code_projects\\aspireexampleproject\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A8BB7B1-534F-43D4-8668-C2356406F89A}|ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj|a:\\code_projects\\aspireexampleproject\\exampleaspire.apphost\\exampleaspire.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6A8BB7B1-534F-43D4-8668-C2356406F89A}|ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj|solutionrelative:exampleaspire.apphost\\exampleaspire.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\App\\VS22\\Enterprise\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|a:\\code_projects\\aspireexampleproject\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|a:\\code_projects\\aspireexampleproject\\docker-compose-back.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|solutionrelative:docker-compose-back.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|a:\\code_projects\\aspireexampleproject\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E757A45F-64AB-4A85-83AF-6601CD884E9C}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 589,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{7f40df72-066b-4810-a08b-c0fbed76c948}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.AppHost\\appsettings.json",
+              "RelativeDocumentMoniker": "ExampleAspire.AppHost\\appsettings.json",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.AppHost\\appsettings.json",
+              "RelativeToolTip": "ExampleAspire.AppHost\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-23T13:04:10.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ExampleAspire.AppHost",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj",
+              "RelativeDocumentMoniker": "ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj",
+              "RelativeToolTip": "ExampleAspire.AppHost\\ExampleAspire.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-23T13:04:08.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\ExampleWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ExampleWebAPI\\Program.cs",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\ExampleWebAPI\\Program.cs",
+              "RelativeToolTip": "ExampleWebAPI\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:52:28.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.ServiceDefaults\\Extensions.cs",
+              "RelativeDocumentMoniker": "ExampleAspire.ServiceDefaults\\Extensions.cs",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.ServiceDefaults\\Extensions.cs",
+              "RelativeToolTip": "ExampleAspire.ServiceDefaults\\Extensions.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwCYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T12:51:28.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Microsoft.VisualStudio.Docker.Compose.targets",
+              "DocumentMoniker": "A:\\App\\VS22\\Enterprise\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeDocumentMoniker": "..\\..\\App\\VS22\\Enterprise\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ToolTip": "A:\\App\\VS22\\Enterprise\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "RelativeToolTip": "..\\..\\App\\VS22\\Enterprise\\MSBuild\\Sdks\\Microsoft.Docker.Sdk\\build\\Microsoft.VisualStudio.Docker.Compose.targets",
+              "ViewState": "AgIAALgAAAAAAAAAAAAewMgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-01-23T11:33:34.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-23T11:33:21.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "docker-compose-back.yml",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\docker-compose-back.yml",
+              "RelativeDocumentMoniker": "docker-compose-back.yml",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\docker-compose-back.yml",
+              "RelativeToolTip": "docker-compose-back.yml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-23T11:28:12.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-01-23T10:49:41.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-01-23T10:49:39.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "ExampleAspire.AppHost\\Program.cs",
+              "ToolTip": "A:\\Code_Projects\\AspireExampleProject\\ExampleAspire.AppHost\\Program.cs",
+              "RelativeToolTip": "ExampleAspire.AppHost\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-22T11:36:46.817Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 265,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+services:
+  aspire-dashboard:
+    container_name: "aspire-dashboard"
+    image: "mcr.microsoft.com/dotnet/aspire-dashboard:9.0"
+    environment:
+      DOTNET_DASHBOARD_UNSECURED_ALLOW_ANONYMOUS: "true"
+      ASPIRE_ALLOW_UNSECURED_TRANSPORT: "true"
+      DASHBOARD__OTLP__AUTHMODE: 'ApiKey'
+      DASHBOARD__OTLP__PRIMARYAPIKEY: '1234567'
+      DOTNET_DASHBOARD_ENABLE_RESOURCES: "true"
+      DOTNET_DASHBOARD_ENABLE_CONSOLE: "true"
+    ports:
+    - target: 18888
+      published: 18888
+    restart: unless-stopped
+  postgres-server:
+    container_name: "postgres-server"
+    image: "docker.io/library/postgres:17.0"
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: "scram-sha-256"
+      POSTGRES_INITDB_ARGS: "--auth-host=scram-sha-256 --auth-local=scram-sha-256"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgrespassword"
+      OTEL_EXPORTER_OTLP_ENDPOINT: "http://aspire-dashboard:18889"
+      OTEL_SERVICE_NAME: "postgres-server"
+    ports:
+    - target: 5432
+      published: 5432
+    restart: unless-stopped
+  examplewebapi:
+    container_name: "examplewebapi"
+    image: "examplewebapi:latest"
+    environment:
+      OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EXCEPTION_LOG_ATTRIBUTES: "true"
+      OTEL_DOTNET_EXPERIMENTAL_OTLP_EMIT_EVENT_LOG_ATTRIBUTES: "true"
+      OTEL_DOTNET_EXPERIMENTAL_OTLP_RETRY: "in_memory"
+      ASPNETCORE_FORWARDEDHEADERS_ENABLED: "true"
+      HTTP_PORTS: "8080"
+      ConnectionStrings__pDb: "Host=postgres-server;Port=5432;Username=postgres;Password=postgrespassword;Database=ProductDb"
+      ConnectionStrings__DefaultConnection: "Host=postgres-server;Database=ProductDb;Username=postgres;Password=postgrespassword"
+      OTEL_EXPORTER_OTLP_ENDPOINT: "http://aspire-dashboard:18889"
+      OTEL_SERVICE_NAME: "examplewebapi"
+    ports:
+    - target: 8080
+      published: 10000
+    - target: 8443
+      published: 10001
+    restart: unless-stopped
