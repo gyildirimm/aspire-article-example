@@ -1,4 +1,3 @@
-```markdown
 # .NET Aspire Nedir?
 .NET Aspire, bulut tabanlı modern uygulamaların geliştirilmesini ve yönetilmesini kolaylaştıran bir orkestrasyon aracıdır. .NET ekosistemindeki mikroservis tabanlı mimarileri daha yönetilebilir ve ölçeklenebilir hale getirmek için geliştirilmiştir.
 
